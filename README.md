@@ -53,6 +53,17 @@ npm start
 6. Click "Create Credentials" > "API Key"
 7. Copy the key and add it to your `.env` file
 
+## Run with Docker
+1. Check whether you have Docker.
+2. To build the Docker image: 
+```
+docker build -t foodie-map .
+```
+3. To run the container:
+```
+docker run -p 3000:3000 foodie-map
+```
+
 ## Project Structure
 
 ```
