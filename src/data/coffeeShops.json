@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "AnnYoung Cafe",
+    "address": "106台灣台北市大安區延吉街70巷5弄2號1樓",
+    "openingHours": "每日 12:00–23:00",
+    "longitude": 121.5531,
+    "latitude": 25.0418,
+    "thoughts": "韓系風格，蜂蜜海苔年糕必點，寵物友善，適合拍照打卡。",
+    "tags": ["有正餐", "有 Wi-Fi", "有限時"]
+  },
+  {
+    "id": 2,
+    "name": "咖啡休日 Day Off",
+    "address": "100台灣台北市中正區羅斯福路四段136巷6弄23號",
+    "openingHours": "週二至週五 09:00–18:00，週六至週日 11:00–18:00，週一公休",
+    "longitude": 121.5295,
+    "latitude": 25.0137,
+    "thoughts": "手沖咖啡專門店，環境寧靜，適合放鬆閱讀。",
+    "tags": ["不限時", "不限時"]
+  },
+  {
+    "id": 3,
+    "name": "羊毛與花 東門店",
+    "address": "100台灣台北市中正區信義路一段9-1號",
+    "openingHours": "每日 11:00–19:00",
+    "longitude": 121.5199,
+    "latitude": 25.0356,
+    "thoughts": "日式喫茶風格，提供WIFI，不限時，適合喜愛閱讀的顧客。",
+    "tags": ["有正餐", "有Wi-Fi", "不限時"]
+  },
+  {
+    "id": 4,
+    "name": "Frankie Feels Good",
+    "address": "106台灣台北市大安區安和路一段49巷11-2號1樓",
+    "openingHours": "每日 10:00–18:00",
+    "longitude": 121.5527,
+    "latitude": 25.0335,
+    "thoughts": "復古裝潢，貝果美味，適合早午餐聚會。",
+    "tags": ["有正餐", "有限時"]
+  },
+  {
+    "id": 5,
+    "name": "After Rain Coffee & Dessert",
+    "address": "台灣台北市大安區信義路四段265巷10弄2號1樓",
+    "openingHours": "週二至週日 08:30–18:30，週一公休",
+    "longitude": 121.5543,
+    "latitude": 25.0330,
+    "thoughts": "工業風設計，抹茶甜點出色，氣氛放鬆。",
+    "tags": ["有正餐", "有Wi-Fi", "有限時"]
+  },
+  {
+    "id": 6,
+    "name": "Flügel Studio",
+    "address": "106台灣台北市大安區辛亥路一段34巷3號1樓",
+    "openingHours": "週一、週三至週五 14:00–19:00，週六至週日 13:00–19:00，週二公休",
+    "longitude": 121.5298,
+    "latitude": 25.0245,
+    "thoughts": "極簡風格，結合藝術與咖啡，適合尋求靈感的顧客。",
+    "tags": ["有Wi-Fi", "不限時"]
+  },
+  {
+    "id": 7,
+    "name": "木白",
+    "address": "台灣台北市大安區和平東路三段228巷3弄5號1樓",
+    "openingHours": "每日 12:00–20:00",
+    "longitude": 121.5432,
+    "latitude": 25.0267,
+    "thoughts": "木質裝潢，氛圍溫馨，咖啡與甜點皆佳。",
+    "tags": ["有Wi-Fi"]
+  },
+  {
+    "id": 8,
+    "name": "稍甜 SYRUP LESS",
+    "address": "105台灣台北市松山區敦化北路145巷5號1樓",
+    "openingHours": "每日 12:00–20:00",
+    "longitude": 121.5525,
+    "latitude": 25.0512,
+    "thoughts": "千層蛋糕專賣，甜度適中，環境舒適。",
+    "tags": ["不限時"]
+  },
+  {
+    "id": 9,
+    "name": "Stoppage Time 補時",
+    "address": "106台灣台北市大安區和平東路二段96巷15弄30號1樓",
+    "openingHours": "每日 11:00–22:00",
+    "longitude": 121.5439,
+    "latitude": 25.0261,
+    "thoughts": "有薩拉米",
+    "tags": ["有正餐", "有Wi-Fi", "不限時"]
+  },
+  {
+    "id": 10,
+    "name": "艸藴",
+    "address": "台北市大安區和平東路三段228巷3弄5號1樓",
+    "openingHours": "每日 12:00–20:00",
+    "longitude": 121.5432,
+    "latitude": 25.0267,
+    "thoughts": "木質裝潢，氛圍溫馨，咖啡與甜點皆佳。",
+    "tags": ["有Wi-Fi", "有限時"]
+  }
+]

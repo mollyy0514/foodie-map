@@ -1,46 +1,104 @@
-# Getting Started with Create React App
+# FoodieMap - Coffee Edition
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that displays a map of your favorite coffee shops using Google Maps API.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Interactive Google Map showing coffee shop locations
+- List of coffee shops with details
+- Click on a map marker to see more information about a coffee shop
+- Responsive design for desktop and mobile devices
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before you begin, ensure you have:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js installed (v14.0.0 or later recommended)
+- npm or yarn installed
+- A Google Maps API key
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository
+```
+git clone <repository-url>
+cd foodie-map
+```
 
-### `npm run build`
+2. Install dependencies
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Set up your Google Maps API key
+   - Rename `.env.example` to `.env` (or create a new `.env` file)
+   - Replace `YOUR_GOOGLE_MAPS_API_KEY_HERE` with your actual Google Maps API key
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the development server
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your browser and navigate to `http://localhost:3000`
 
-### `npm run eject`
+## How to Get a Google Maps API Key
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/)
+2. Create a new project or select an existing one
+3. Navigate to "APIs & Services" > "Library"
+4. Search for and enable the following APIs:
+   - Maps JavaScript API
+   - Places API (if you want to add more features like searching)
+5. Go to "APIs & Services" > "Credentials"
+6. Click "Create Credentials" > "API Key"
+7. Copy the key and add it to your `.env` file
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+foodie-map/
+├── public/
+├── src/
+│   ├── components/             # React components
+│   │   ├── CoffeeShopList.tsx  # List of coffee shops
+│   │   └── GoogleMap.tsx       # Google Maps component
+│   ├── data/
+│   │   └── coffeeShops.json    # Coffee shop data
+│   ├── styles/                 # CSS files
+│   │   ├── App.css
+│   │   └── CoffeeShopList.css
+│   ├── types/                  # TypeScript type definitions
+│   │   └── index.ts
+│   ├── App.tsx                 # Main app component
+│   └── index.tsx               # Entry point
+├── .env                        # Environment variables
+└── tsconfig.json               # TypeScript configuration
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Customizing Coffee Shop Data
 
-## Learn More
+To add or modify coffee shops, edit the `src/data/coffeeShops.json` file. Each entry should include:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `id`: A unique identifier
+- `name`: The name of the coffee shop
+- `address`: The physical address
+- `openingHours`: Hours of operation
+- `longitude`: Geographic longitude
+- `latitude`: Geographic latitude
+- `thoughts`: Your personal notes or review
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
+
+- React
+- TypeScript
+- Google Maps API
+- CSS Grid and Flexbox for responsive layout
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Coffee shops data is fictional and for demonstration purposes only
+- Icon provided by Feather Icons
